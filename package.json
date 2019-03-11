@@ -1,0 +1,28 @@
+{
+  "name": "rest-request",
+  "version": "0.0.1",
+  "description": "Package to simplify rest request in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marceloazvedo/rest-request.git"
+  },
+  "keywords": [
+    "Rest",
+    "Request",
+    "API",
+    "Consumes"
+  ],
+  "author": "Marcelo S. de Azevedo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marceloazvedo/rest-request/issues"
+  },
+  "homepage": "https://github.com/marceloazvedo/rest-request#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
