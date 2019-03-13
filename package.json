@@ -1,5 +1,5 @@
 {
-  "name": "rest-request",
+  "name": "mount-request",
   "version": "0.0.1",
   "description": "Package to simplify rest request in JavaScript",
   "main": "index.js",

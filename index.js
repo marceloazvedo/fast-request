@@ -4,7 +4,6 @@ const mountRequest = require('./lib/mount-request')
 
 const getRequest = (data, headers, endPoint, validateStatus) => {
     return new Promise((resolve, reject) => {
-        console.log(mountRequest(data, headers, endPoint, validateStatus))
         axios(mountRequest(data, headers, endPoint, validateStatus))
         .then((response) => resolve(response))
         .catch((err) => reject(err))
